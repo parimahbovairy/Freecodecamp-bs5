@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Free code camp</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <img src="https://picsum.photos/600/400" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-5">
+            <h1 class="mt-5">Tagline</h1>
+            <p class="mt-4">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              sapiente quae omnis asperiores provident. Dolorum impedit quidem
+              vel similique odit?
+            </p>
+            <button type="button" class="btn btn-primary mt-3">
+              Call to action!
+            </button>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col">
+            <div class="bg-secondary text-white my-3 py-3 card text-center">
+              <div class="card-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Officia, provident!Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Officia, provident!
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card-group">
+              <div class="card">
+                <img
+                  src="https://picsum.photos/id/220/320/200"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div class="">
+                    <a href="#">
+                      <button type="button" class="btn btn-primary">
+                        Read more!
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="https://picsum.photos/id/227/320/200"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This card has supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <div class="">
+                    <a href="#">
+                      <button type="button" class="btn btn-primary">
+                        Read more!
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="https://picsum.photos/id/229/320/200"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </p>
+                  <div class="">
+                    <a href="#">
+                      <button type="button" class="btn btn-primary">
+                        Read more!
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="mb-3">
+            <label for="formFile" class="form-label"
+              >Default file input example</label
+            >
+            <input class="form-control" type="file" id="formFile" />
+          </div>
+          <div class="mb-3">
+            <label for="formFileMultiple" class="form-label"
+              >Multiple files input example</label
+            >
+            <input
+              class="form-control"
+              type="file"
+              id="formFileMultiple"
+              multiple
+            />
+          </div>
+          <div class="mb-3">
+            <label for="formFileDisabled" class="form-label"
+              >Disabled file input example</label
+            >
+            <input
+              class="form-control"
+              type="file"
+              id="formFileDisabled"
+              disabled
+            />
+          </div>
+          <div class="mb-3">
+            <label for="formFileSm" class="form-label"
+              >Small file input example</label
+            >
+            <input
+              class="form-control form-control-sm"
+              id="formFileSm"
+              type="file"
+            />
+          </div>
+          <div>
+            <label for="formFileLg" class="form-label"
+              >Large file input example</label
+            >
+            <input
+              class="form-control form-control-lg"
+              id="formFileLg"
+              type="file"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="text-center text-white" style="background-color: #caced1">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Images -->
+        <section class="">
+          <div class="row">
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div
+                class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp"
+                  class="w-100"
+                />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.2)"
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div
+                class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/fluid/city/111.webp"
+                  class="w-100"
+                />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.2)"
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div
+                class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/fluid/city/112.webp"
+                  class="w-100"
+                />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.2)"
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div
+                class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp"
+                  class="w-100"
+                />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.2)"
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div
+                class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/fluid/city/115.webp"
+                  class="w-100"
+                />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.2)"
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div
+                class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/fluid/city/116.webp"
+                  class="w-100"
+                />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.2)"
+                  ></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Images -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+          >MDBootstrap.com</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
